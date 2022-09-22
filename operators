@@ -1,0 +1,21 @@
+#Sum and Difference
+Q.Write a python program to get 2 numbers from the user and calculate their sum and difference using '+' and '-' operators respectively. 
+Print the corresponding sum and difference of the numbers as output in the console.
+
+#program:-
+a=int(input())
+b=int(input())
+print(a+b)
+print(a-b)
+
+#Product and Division
+Q.Write a python program to get 2 numbers from the user and calculate their product, quotient and remainder using '*', '/' and '%' operators respectively.
+Print the corresponding product, quotient and remainder of the numbers as output in the console. 
+
+#program:-
+a=int(input())
+b=int(input())
+print(a*b)
+print(a//b)
+print(a%b)
+
