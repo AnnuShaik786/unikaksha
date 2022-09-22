@@ -64,3 +64,60 @@ a=int(input())
 b=(a//10)
 c=(a%10)
 print(b+c)
+
+#Area Calculation
+Q.Sheela has three things in her bag. She wants to compute the area of 3 things but 3 things are in different shapes. 
+The three things are in square shape, rectangular shape, and circular shape respectively. Write a program to help Sheela to calculate the area of different shapes.
+
+#program:-
+a=int(input())
+l=int(input())
+b=int(input())
+r=float(input())
+print(a**2)
+print(l*b)
+print("%.2f"%((3.14)*(r**2)))
+
+#Fencing the ground
+Q.The college ground is rectangular in shape. The Management decides to build a fence around the ground. 
+In order to help the construction workers to build a straight fence, they planned to place a thick rope around the ground. They wanted to buy only the exact length of the rope that is needed.
+
+
+They also wanted to cover the entire ground with a thick carpet during rainy season. They wanted to buy only the exact quantity of carpet that is needed. They requested your help. Can you please help them by writing a program to find the exact length of the rope and the exact quantity of carper that is required? 
+
+#program:-
+l=int(input())
+b=int(input())
+p=2*(l+b)
+A=l*b
+print("required length is",p,"m")
+print("required quantity of carpet is",A,"sqm")
+
+#Power of a Number
+Q.pow() function is used to calculate the power of any base and it is defined in math header file. Write a program to read X as the base and N as the power and calculate the result (X^N - X to the power of N). 
+
+#program:-
+x=int(input())
+y=int(input())
+print(pow(x,y))
+
+#Simple Interest
+Q.Sara wished to build a new house but she didn't have a sufficient amount. So, she is planning to borrow some money from the bank on simple interest. 
+When she is borrowing some money from the bank, she has to pay back the original amount accompanied by a certain amount of interest on that amount. She wants to find the interest for borrowed money within a certain period. Help her to find the simple interest. 
+
+#program
+p=int(input())
+t=int(input())
+r=float(input())
+print((p*t*r)/100)
+
+#Splitting into Teams
+Q.During the Physical Education hour, PET sir has decided to conduct some team games. He wants to split the students in the class into equal sized teams. In some cases, there may be some students who are left out from teams and he wanted to use the left out students to assist him in conducting the team games. 
+For instance, if there are 50 students in the class and if the class has to be divided into 7 equal sized teams, 7 students will be there in each team and 1 student will be left out. PET sir asks your help to automate this team splitting task. Can you please help him out? 
+
+#program
+a=int(input())
+b=int(input())
+c=(a//b)
+d=(a%b)
+print(f"the number of students in each team is {c} and left out is {d}")
