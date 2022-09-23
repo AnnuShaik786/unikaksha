@@ -1,0 +1,38 @@
+#Hello World
+
+#program:-
+print("Hello World")
+
+#Hello World with tab
+
+#program:-
+print("Hello World \t Hello World")
+
+#Hello World with new line
+
+#program:-
+print("Hello World\nHello world")
+
+#Integer Input
+
+#program:-
+a=int(input())
+print(a)
+
+#Float Input
+
+#program:-
+a=float(input())
+print('%.2f'%a)
+
+#Character Input
+
+#program:-
+a=input()
+print(a)
+
+#String Input
+
+#program:-
+a=str(input())
+print(a)
