@@ -91,3 +91,117 @@ if BY>CY:
 elif BY<CY:
     e=CY-BY
     print(f"Your age is {e}")
+
+#Lab Allocation
+
+#program:-
+X=int(input("Enter x\n"))
+Y=int(input("Enter y\n"))
+Z=int(input("Enter z\n"))
+if X<(Y and Z):
+    print("L1 has the minimal seating capacity")
+elif Y<(X and Z):
+    print("L2 has the minimal seating capacity")
+else:
+    print("L3 has the minimal seating capacity")
+    
+#Gardening I
+
+#program:-
+R=int(input())
+C=int(input())
+N=int(input())
+if (N%C==0 or N%C==1 or N>=1 and N<=4):
+    print("Yes")
+else:
+    print("No")
+    
+#Hotel Tariff Calculator
+
+#program:-
+m=int(input())
+r=float(input())
+d=int(input())
+if (m>=4 and m<=6 or m>=11 and m<=12):
+    i=((r*0.2)+r)*d
+    print(f"Hotel Tariff: Rs.{'%.2f' %(i)}")
+elif m<=12:
+    i=r*d
+    print(f"Hotel Tariff: Rs.{'%.2f' %(i)}")
+else:
+    print("Invalid Input")
+
+#RGY Lights
+
+#program:-
+s=float(input())
+d=float(input())
+t=float(input())
+if s>t:
+    print("yes")
+else:
+    print("no")
+    
+#Budget
+
+#program:-
+A=int(input())
+B=int(input())
+C=int(input())
+D=int(input())
+E=int(input())
+p=A*350.53
+q=B*230.90
+r=C*190.55
+s=D*125.30
+t=E*180.90
+z=p+q+r+s+t
+if z<15000:
+    print("yes")
+else:
+    print("no")
+    
+#Sece Dining
+
+#program:-
+a=input()
+b=int(input())
+if (a=="front" and b==1) or (a=="rear" and b==2):
+    print("Left Handed")
+elif (a=="front" and b==2) or (a=="rear" and b==1):
+    print("Right Handed")
+else:
+    print("invalid")
+    
+#Intersection of a Circle
+
+#program:-
+x1=int(input())
+y1=int(input())
+r1=int(input())
+x2=int(input())
+y2=int(input())
+r2=int(input())
+d=(((x1-x2)**2)+((y1-y2)**2))**(1/2)
+if r1+r2 ==d:
+    print("The circles are tangential")
+elif r1+r2>d:
+    print("The circles overlap")
+else:
+    print("The circles do not overlap")
+    
+#Microwave Oven
+
+#program:-
+N=int(input("Enter the number of items \n"))
+T=float(input("Enter the single item heating time \n"))
+if N==1:
+    print("t")
+elif N==2:
+    a=1.5*T
+    print(f"The recommended heating time is {'%.2f' %a}")
+elif N==3:
+    b=2*T
+    print(f"The recommended heating time is {'%.2f' %b}")
+else:
+    print("Number of items is more")
