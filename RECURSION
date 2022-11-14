@@ -1,0 +1,64 @@
+
+#Binary equivalent of a number using recursion
+
+#program
+
+def convert(n):
+    if n>1:
+        convert(n//2)
+    print(n%2,end="")
+    
+dec=int(input())
+convert(dec)
+
+#Odd or Even
+
+#program
+
+def oddoreven(x):
+    if x%2==0:
+        print("Even!")
+    else:
+        print("Odd!")
+
+a=int(input())
+oddoreven(a)
+
+#Factorial
+
+#program
+
+def fact(n):
+    if n==1 or n==0:
+        return 1
+    else:
+        return(n*fact(n-1))
+        
+a=int(input())
+print(fact(a))
+
+#LCM of two numbers
+
+#program
+
+def lcm(x,y,z):
+    if (x*y)%y==0:
+        print(x*y)
+    else:
+        lcm(x,y,z+1)
+    
+a=int(input())
+b=int(input())
+lcm(a,b,1)
+
+#Decimal to Binary
+
+#program
+
+def convert(n):
+    if n>1:
+        convert(n//2)
+    print(n%2,end="")
+    
+dec=int(input())
+convert(dec)
