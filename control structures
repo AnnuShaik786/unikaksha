@@ -1,0 +1,122 @@
+#Amoeba Multiplication
+#program
+
+n=int(input("Enter the number of Months :"))
+a=0
+b=1
+count=2
+while count<n:
+    c=a+b
+    a=b
+    b=c
+    count=count+1
+print(f"The amoeba size is {c}")
+
+#Factorial
+#program
+
+n=int(input())
+a=1
+for i in range(1,n+1):
+    a=a*i
+    if n==a:
+        print("yes")
+        break
+else:
+    print("no")
+
+#Sum of Digits
+
+#program
+
+n=int(input())
+sum=0
+for i in range(n):
+    c=n%10
+    n=n//10
+    sum=sum+c
+print(sum)
+
+#Friendly Pair
+
+#program
+
+a=int(input())
+b=int(input())
+sum1=0
+sum2=0
+for i in range (1,a):
+    if a%i==0:
+        sum1=sum1+i
+for j in range (1,b):
+    if b%j==0:
+        sum2=sum2+j
+if sum1/a==sum2/b:
+    print("Friendly Pair")
+else:
+    print("Not Friendly Pair")
+    
+#Harshard Number
+
+#program
+
+a=int(input())
+c=a
+sum=0
+for i in range (1,a):
+    r=a%10
+    sum=sum+r
+    a=a//10
+if c%sum==0:
+    print("Harshad Number")
+else:
+    print(" not Harshad Number")
+    
+#LCM of two numbers
+
+#program
+
+a=int(input())
+b=int(input())
+max=0
+if a>b:
+    max=a
+else:
+    max=b
+i=1
+while True:
+    tbl=max*i
+    if tbl%a==0 and tbl%b==0:
+        print(f"LCM of {a} and {b} is {tbl}")
+        break
+    i+=1
+    
+#Palindrome of a number
+
+#program
+
+num=input()
+if num==num[::-1]:
+    print("Palindrome")
+else:
+    print("Not a Palindrome")
+
+#Reverse a Number
+
+#program
+
+a=input()
+rev=a[::-1]
+print(rev)
+
+#Sum of natural Numbers
+
+#program
+
+n=int(input())
+sum=0
+for i in range(n):
+    c=n%10
+    n=n//10
+    sum=sum+c
+print(sum)
