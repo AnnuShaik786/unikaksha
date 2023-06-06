@@ -1,0 +1,114 @@
+patter-1
+
+n=int(input())
+for i in range(1,n+1):
+    for j in range(1,n+1):
+        print("*",end="")
+    print()
+    
+output:-
+Sample Input 
+5  
+Sample output
+*****                                                                           
+*****                                                                           
+*****                                                                           
+*****                                                                           
+***** 
+
+
+pattern-2
+
+n=int(input())
+for i in range(1,n+1):
+    for j in range (1,n+1):
+        print(i,end="")
+    print()
+    
+output:-
+Sample Input 
+6
+Sample output
+111111
+222222
+333333
+444444
+555555
+666666
+
+Pattern-3
+
+n=int(input())
+for i in range(1,n+1):
+    for j in range(1,n+1):
+        if i>=j:
+            print("*",end="")
+    print()
+output:-
+Sample Input 
+5
+Sample output
+*
+**
+***
+****
+***** 
+
+pattern-4
+
+n=int(input())
+for i in range(1,n+1):
+    for j in range(1,n+1):
+        if i<=j:
+            print("*",end="")
+    print()
+    
+output:-
+Sample Input 
+5
+Sample output
+*****
+****
+***
+**
+*
+
+pattern-5
+
+n=int(input())
+for i in range(n):
+    for j in range(n):
+        if i<=j:
+            print("*",end="")
+        else:
+            print(" ",end="")
+    print()
+    
+output:-
+
+Sample Input 
+5
+Sample output 
+*****
+ ****
+  ***
+   **
+    * 
+    
+pattern-6
+n=int(input())
+print("*"*n)
+for i in range(n-2):
+    print("*"+" "*(n-2)+"*")
+print("*"*n)
+
+Sample Input 
+5
+Sample output 
+*****                                                                           
+*   *                                                                           
+*   *                                                                           
+*   *                                                                           
+*****                                                                           
+
+
